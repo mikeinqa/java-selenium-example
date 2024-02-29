@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration name="TCMCUITests" packages="" status="warn">
+  <appenders>
+    <File fileName="target/logs/tests.log" name="file-log">
+      <PatternLayout>
+        <pattern>[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} - %msg%n</pattern>
+      </PatternLayout>
+    </File>
+  </appenders>
+  <loggers>
+    <root level="info">
+      <appender-ref ref="file-log"/>
+    </root>
+  </loggers>
+</configuration>
